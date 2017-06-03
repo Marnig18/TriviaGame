@@ -1,11 +1,45 @@
 body {
-	background-image: url(../images/hogwarts.jpeg);
-	background-repeat: no-repeat;
-	background-position: center
-	width: 100%
+	background-image: url(../images/hogwarts.jpeg); /*no-repeat center center-fixed;*/
+	background-size: cover; 
+	
 }
 
-#gamediv{
-	background-color: white;
+#container2{
+	
 }
+
+#gameDiv{
+	background-color: #ccc;
+	text-align: center
+	
+
+}
+
+#header{
+	text-align: center;
+	color: white;
+}
+
+.questions{
+	/*text-align: center;*/
+	padding: 20px 0;
+	padding-top: 50px 
+}
+
+.button {
+	text-align: center;
+	margin: 5px;
+	margin-right: 10px;
+}
+
+#timer{
+	color: white;
+}
+
+#endscreen{
+	background-color: #ccc;
+	text-align: center;
+}
+
+
 
