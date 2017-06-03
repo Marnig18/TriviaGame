@@ -69,7 +69,7 @@ console.log(questions)
 // // varibales
 var numberCorrect = 0;
 var numberWrong = 0;
-var unanswered = 10;
+var unanswered = 8;
 
 
 
