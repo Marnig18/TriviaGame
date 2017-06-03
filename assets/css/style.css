@@ -1,23 +1,46 @@
 body {
-	background-image: url(../images/hogwarts.jpeg); /*no-repeat center center-fixed;*/
+	background-image: url(../images/hogwarts3.jpg); /*no-repeat center center-fixed;*/
 	background-size: cover; 
 	
 }
+
+
+
 
 #container2{
 	
 }
 
 #gameDiv{
-	background-color: #ccc;
-	text-align: center
-	
+	background-color: rgba(225, 225, 225, 0.5);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 60px;
+	margin-bottom: 10px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 22px;
+	color: #000;
+
+
+	/*opacity: 0.5;
+	*/
 
 }
 
 #header{
 	text-align: center;
 	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	
+
+}
+
+h1{
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+	font-size: 75px;
+	font-style: italic;
+	font
 }
 
 .questions{
@@ -34,12 +57,47 @@ body {
 
 #timer{
 	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
 }
 
 #endscreen{
-	background-color: #ccc;
+	background-color: rgba(225, 225, 225, 0.5);
 	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
 }
 
 
+#start{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	background: #ccc;
+}
+
+#correct,
+#wrong,
+#unanswered{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 22px;
+}
+
+
+#done{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	background: #ccc;
+	margin-bottom: 20px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 22px;
+}
+
+input.button{
+	margin: 5px;
+}
 

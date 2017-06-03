@@ -92,6 +92,8 @@ $("#correct").hide();
 $("#wrong").hide();	
 $("#unanswered").hide();	
 $("#timer").hide();
+$("#done").hide();
+$("#endscreen").hide();
 
 
 function end(){
@@ -116,12 +118,13 @@ $("#start").on("click", function(){
 	$("#start").hide()
 	$("#gameDiv").show();
 	$("#timer").show();
+	$("#done").show();
 	run();
 	onClick();
 	});
 
 
- var number = 120;
+ var number = 60;
 
 var intervalId;
 
@@ -146,6 +149,9 @@ function run() {
 		$("#wrong").show();	
 		$("#unanswered").show();
 		$("#gameDiv").hide();	
+		$("#endscreen").show();
+		$("#timer").hide();
+		$("#done").hide();	
     }
 
 
