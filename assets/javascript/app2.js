@@ -64,6 +64,7 @@ console.log(questions)
 				console.log("numberCorrect: " + numberCorrect);
 				
 			}
+		checked();	
 	}
 
 // // varibales
@@ -97,6 +98,7 @@ $("#endscreen").hide();
 
 
 function end(){
+	
 	$("#correct").html("<p> Number Correct: " + numberCorrect + "</p>")
 	$("#wrong").html("<p> Number Wrong: " + numberWrong + "</p>")
 	$("#unanswered").html("<p> Unanswered: " + unanswered + "</p>")
@@ -121,6 +123,7 @@ $("#start").on("click", function(){
 	$("#done").show();
 	run();
 	onClick();
+	// checked();
 	});
 
 
@@ -144,7 +147,6 @@ function run() {
  function stop() {
    clearInterval(intervalId);
     end();
-  	checked();
 		$("#correct").show();	
 		$("#wrong").show();	
 		$("#unanswered").show();
